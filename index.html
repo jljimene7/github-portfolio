@@ -9,16 +9,29 @@
     <link rel="stylesheet" href="css/media.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-      .hero-img img {
-        max-width: 250px;
-        height: auto;
-        border-radius: 8px;
-      }
       .hero-row {
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap;
+      }
+
+      .hero-img img {
+        width: 180px;
+        height: auto;
+        border-radius: 12px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .hero-content {
+        flex: 1 1 60%;
+      }
+
+      .hero-img {
+        flex: 1 1 30%;
+        text-align: center;
       }
     </style>
   </head>
